@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <style>
+            .parent{
+                height: 100%;
+                width: 100%;
+                background-color:black;
+                display: flex;
+            }
+            .child1{
+                height: 103%;
+                width: 20%;
+                background-color: black;
+                color: bisque;
+                
+            }
+            .child2{
+                height: 100%;
+                width: 80%;
+                background-color:grey;
+                
+               
+            }
+            .a1{
+                height: 8%;
+                width: 100%;
+                background-color:aqua;
+            
+                
+            }
+            .a2{
+                height: 40%;
+                width:100%;
+                background-color: grey;
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+                padding: 9px;
+            
+            }
+            .a3{
+                height: 50%;
+                width: 100%;
+                background-color: grey;
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+            }
+            .a{
+                height:70%;
+                width: 30%;
+                background-color: blue;
+            }
+            .b{
+                height:70%;
+                width: 27%;
+                background-color: green;
+
+            }
+            .c{
+                height:70%;
+                width: 27%;
+                background-color: orangered;
+            }
+            h4{
+                color: whitesmoke;
+                display: flex;
+                justify-content: flex-start;
+                align-content:center;
+            }
+            .b1{
+                height: 80%;
+                width: 35%;
+                background-color: whitesmoke;
+            }
+            .b2{
+                height: 50%;
+                width: 40%;
+                background-color:wheat;
+            }
+            .b11{
+                background-color: brown;
+                height: 10%;
+                width: 100%;
+                
+            }
+            .b12{
+                background-color: brown;
+                height: 15%;
+                width: 100%;
+            }
+            .b13{
+                height: 100%;
+                width: 100%;  
+            }
+            .b14{
+                height: 100%;
+                width: 100%;
+                padding: 20px;  
+            }
+            h2{
+                text-decoration: underline;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">
+                <input type="checkbox">
+                <label>spur</label> <br> <br> <br>
+                <input type="checkbox">
+                <label>dashboard</label> <br> <br>
+                <input type="checkbox">
+                <label>charts</label> <br> <br>
+                <input type="checkbox">
+                <label>layouts</label> <br> <br>
+                <input type="checkbox">
+                <label>about</label><br> <br>
+            </div>
+            <div class="child2">
+                <div class="a1">
+                    <input type="checkbox">
+                    <input type="search" placeholder="type to search"> <br>
+                </div>
+                <div class="a2">
+                    <div class="a">
+                        <h4>sign ups</h4> 
+                        <h5>114</h5> 
+                        <h6></h6><input type="checkbox">
+                        +25% from last month</h6>
+                    </div>
+                    <div class="b">
+                        <h4>Revenue</h4>
+                        <h5>25,541</h5>
+                        <h6>+17.5 from last month</h6>
+                    </div>
+                    <div class="c">
+                        <h4>open tickets</h>
+                        <input type="checkbox">
+                        <h6>5</h6>
+                    </div>
+                </div>
+                <div class="a3">
+                    <div class="b1">
+                        <div class="b11"> <input type="checkbox">
+                            <label for="">Bar Chart</label>
+                            <div class="b13"><img src="graph.png" height="800%" width="100%"></div>
+                        </div>
+                    </div>
+                    <div class="b2">
+                        <div class="b12"> <input type="checkbox">
+                            <label > Notifications</label>
+                            <div class="b14">
+                                <input type="checkbox">
+                                <lable> New comment</lable> <br> <br>
+                                <input type="checkbox"> 
+                                <lable> New comment</lable> <br> <br>
+                                <input type="checkbox">
+                                <lable> New comment</lable> <br> <br>
+                                <h2>show all</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </body>
+</html>

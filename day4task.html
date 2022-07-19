@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            .parent{
+                background-color: white;
+                width: 25vw;
+                height: 50vh;
+                border: 15px solid black;
+                border-radius: 20px;
+            }
+            .child1{
+                width: 100%;
+                height: 100%;
+                border: 10px solid black;
+                border-radius: 800px;
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+                padding: 15px;
+                
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .subclass1,.subclass2,.subclass3{
+                width:30px;
+                height:30px;
+                border: 15px solid black;
+                border-radius: 50%;
+                background-color: black;
+              
+            
+                
+            }
+           
+        </style>
+
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">
+                <div class="subclass1"></div>
+                <div class="subclass2"></div>
+                <div class="subclass3"></div>
+            </div>
+
+        </div>
+    </body>
+</html>
